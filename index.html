@@ -39,12 +39,14 @@
                     <h1>Ristorante con Fusion</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                 </div>
-                <div class="col-12 col-sm-6 align-items-center">
-                    <div>
-                        <img src="img/logo.png" class="img-fluid">
-                    </div>
-                    <div>
-                        <button class="btn btn-warning" type="button">Reserve Table</button>
+                <div class="col-12 col-sm-6">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-sm-6">
+                            <img src="img/logo.png" class="img-fluid">
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <button class="btn btn-warning" type="button">Reserve Table</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -107,59 +109,61 @@
                 </div>
             </div>
         </div>
-        <div class="row col-12 col-sm-8 d-flex justify-content-center">
-            <div class="card">
-                <h3 class="card-header bg-warning text-white">Reserve a Table</h3>
-                <div class="card-body">
-                    <form>
-                        <div class="form-group row">
-                            <div class="col-12 col-sm-2">
-                                <label for="guestNum" class="">Number of Guests</label> 
-                            </div> 
-                            <div class="col-12 col-sm-10 d-flex flex-row align-items-center">
-                                <div class="col-sm-2 d-flex flex-row">
-                                    <input type="radio"class="mr-2" id="1" name="1">
-                                    <label for="1" class="">1</label>
+        <div class="row row-content align-content-center">
+            <div class="col-12 col-sm-8">
+                <div class="card">
+                    <h3 class="card-header bg-warning text-white">Reserve a Table</h3>
+                    <div class="card-body">
+                        <dl class="row">
+                            <form>
+                                <div class="form-group row">
+                                    <div class="col-12 col-sm-2">
+                                        <label for="guestNum" class="">Number of Guests</label> 
+                                    </div> 
+                                    <div class="col-12 col-sm-10 d-flex align-items-start">
+                                        <div>
+                                            <input type="radio"class="mr-1" id="1" name="1">
+                                            <label for="1" class="mr-1">1</label>
+                                        </div>
+                                        <div>
+                                            <input type="radio"class="mr-1" id="2" name="2">
+                                        <label for="12" class="mr-1">2</label>
+                                        </div>
+                                        <div> 
+                                            <input type="radio"class="mr-1" id="3" name="3">
+                                            <label for="3" class="mr-1">3</label>
+                                        </div>
+                                        <div>
+                                            <input type="radio"class="mr-1" id="4" name="4">
+                                            <label for="4" class="mr-1">4</label>
+                                        </div>
+                                        <div>
+                                            <input type="radio"class="mr-1" id="5" name="5">
+                                            <label for="5" class="mr-1">5</label>
+                                        </div>
+                                        <div>
+                                            <input type="radio"class="mr-1" id="6" name="6">
+                                            <label for="6" class="mr-1">6</label>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="col-sm-2 d-flex flex-row">
-                                    <input type="radio"class="mr-2" id="2" name="2">
-                                    <label for="12" class="">2</label>
+                                <div class="form-group row">
+                                        <div  class="col-12 col-sm-2">
+                                            <label for="dateTime">Date and Time</label>
+                                        </div>
+                                        <div  class="col-12 col-sm-10">
+                                            <input type="text" class="form-control" id="date" name="date" placeholder="Date">
+                                            <input type="text" class="form-control" id="time" name="time" placeholder="Time">
+                                        </div>
                                 </div>
-                                <div class="col-sm-2 d-flex flex-row"> 
-                                    <input type="radio"class="mr-2" id="3" name="3">
-                                    <label for="3" class="">3</label>
+                                <div class="form-group row">
+                                    <Button type="submit" class="btn btn-primary">Reserve</Button>
                                 </div>
-                                <div class="col-sm-2 d-flex flex-row">
-                                    <input type="radio"class="mr-2" id="4" name="4">
-                                    <label for="4" class="">4</label>
-                                </div>
-                                <div class="col-sm-2 d-flex flex-row">
-                                    <input type="radio"class="mr-2" id="5" name="5">
-                                    <label for="5" class="">5</label>
-                                </div>
-                                <div class="col-sm-2 d-flex flex-row">
-                                    <input type="radio"class="mr-2" id="6" name="6">
-                                    <label for="6" class="">6</label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-group row">
-                            <div  class="col-12 col-sm-2">
-                                <label for="dateTime">Date and Time</label>
-                            </div>
-                            <div  class="col-12 col-sm-10 d-flex flex-row">
-                                <input type="text" class="form-control col-5 col-sm-5 mr-4" id="date" name="date" placeholder="Date">
-                                <input type="text" class="form-control col-5 col-sm-5" id="time" name="time" placeholder="Time">
-                            </div>
-                        </div>
-                        <div class="form-group row off-start-1">
-                            <Button type="submit" class="btn btn-primary">Reserve</Button>
-                        </div>
-                    </form>
+                            </form>
+                        </dl>
+                    </div>
                 </div>
             </div>
-
-
         </div>
     </div>
 
